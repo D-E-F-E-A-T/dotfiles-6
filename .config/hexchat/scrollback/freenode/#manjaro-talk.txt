@@ -1,0 +1,6 @@
+T 1541295640 19*	Now talking on 22#manjaro-talk
+T 1541295640 22*	Topic for 22#manjaro-talk is: #manjaro-br
+T 1541295640 22*	Topic for 22#manjaro-talk set by 26Thay!~ThaislanR@2804:431:f728:1d02:f734:8ebf:d8dc:b3cf (24Sat Nov  3 15:21:54 2018)
+T 1541423323 19*	Now talking on 22#manjaro-talk
+T 1541423323 22*	Topic for 22#manjaro-talk is: #manjaro-br
+T 1541423323 22*	Topic for 22#manjaro-talk set by 26Thay!~ThaislanR@2804:431:f728:1d02:f734:8ebf:d8dc:b3cf (24Sat Nov  3 15:21:54 2018)

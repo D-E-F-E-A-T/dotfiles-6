@@ -1,0 +1,210 @@
+T 1541301957 19*	Now talking on 22#rust-beginners
+T 1541301957 22*	Topic for 22#rust-beginners is: Beginner's Rust discussion, unlogged. Ask away, but please allow some time for people to respond! | Book  https://doc.rust-lang.org/book/ | Playground  https://play.rust-lang.org | Forum  https://users.rust-lang.org | Conduct  https://www.rust-lang.org/conduct.html
+T 1541301957 22*	Topic for 22#rust-beginners set by 26niconii!nicole@moz-fg53dj.midco.net (24Thu May 26 06:19:40 2016)
+T 1541302055 23*	enterprisey (enterprisey@moz-07243n.cit.cornell.edu23) has joined
+T 1541302062 24*	zver has quit (Quit: http://www.mibbit.com ajax IRC Client)
+T 1541302120 23*	soren (soren@moz-mvacg5.cam.ac.uk23) has joined
+T 1541302138 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541302161 24*	changyihsin has quit (Ping timeout: 121 seconds)
+T 1541302219 23*	liquidnight (marcus@moz-oullh5.9dn6.9pur.0c23.2a01.IP23) has joined
+T 1541302251 24*	liquidnight has quit (Connection closed)
+T 1541302318 24*	benjamin-l has quit (Quit: ZNC 1.7.1 - https://znc.in)
+T 1541302318 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541302321 23*	benjamin-l (benjamin@moz-47s.051.22.24.IP23) has joined
+T 1541302370 24*	soren has quit (Ping timeout: 121 seconds)
+T 1541302389 23*	jam_ (jam@moz-jgaeif.ap.nuro.jp23) has joined
+T 1541302427 24*	zphds has quit (Ping timeout: 121 seconds)
+T 1541302740 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541302933 23*	soren (soren@moz-mvacg5.cam.ac.uk23) has joined
+T 1541302962 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541303060 23*	Moongoodboy{K} (LunarToyK@sugar-belle.blackl.net23) has joined
+T 1541303126 23*	mdunn (textual@moz-3m2.897.59.208.IP23) has joined
+T 1541303146 23*	benjamin- (benjamin@moz-a5fkk1.a6l3.85nk.01c0.2601.IP23) has joined
+T 1541303183 24*	soren has quit (Ping timeout: 121 seconds)
+T 1541303205 24*	benjamin-l has quit (Ping timeout: 121 seconds)
+T 1541303336 24*	benjamin- has quit (Quit: ZNC 1.7.1 - https://znc.in)
+T 1541303337 23*	benjamin-l (benjamin@moz-a5fkk1.a6l3.85nk.01c0.2601.IP23) has joined
+T 1541303459 23*	kimundi- (kimundi@moz-eisilj.versanet.de23) has joined
+T 1541303561 23*	siddhartharao17 (siddharthar@moz-gv2a9s.oqtm.17gi.0647.2601.IP23) has joined
+T 1541303589 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541303593 24*	kimundi has quit (Ping timeout: 121 seconds)
+T 1541303593 24*	28kimundi- is now known as 18kimundi
+T 1541303663 24*	feddamisch__ has quit (Quit: Leaving)
+T 1541303746 23*	soren (soren@moz-mvacg5.cam.ac.uk23) has joined
+T 1541303835 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541303988 23*	jsatk (jesseatkins@moz-48ft7k.ca.comcast.net23) has joined
+T 1541303995 24*	soren has quit (Ping timeout: 121 seconds)
+T 1541304176 24*	yjv has quit (Connection closed)
+T 1541304240 23*	mib_02rkjl (Mibbit@moz-eg7.b5j.246.185.IP23) has joined
+T 1541304253 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541304263 23*	KiChjang (keithyeung@moz-6r3.iiq.141.207.IP23) has joined
+T 1541304266 24*	proc has quit (Quit: Konversation terminated!)
+T 1541304291 24*	mib_02rkjl has quit (Quit: http://www.mibbit.com ajax IRC Client)
+T 1541304535 24*	KiChjang has quit (Ping timeout: 121 seconds)
+T 1541304539 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541304544 23*	sainathvd (sainathvd@moz-4bf.abv.87.183.IP23) has joined
+T 1541304559 23*	soren (soren@moz-mvacg5.cam.ac.uk23) has joined
+T 1541304809 24*	soren has quit (Ping timeout: 121 seconds)
+T 1541305068 23*	adamgr (adamgr@moz-fbutm1.wa.comcast.net23) has joined
+T 1541305108 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541423438 19*	Now talking on 22#rust-beginners
+T 1541423438 22*	Topic for 22#rust-beginners is: Beginner's Rust discussion, unlogged. Ask away, but please allow some time for people to respond! | Book  https://doc.rust-lang.org/book/ | Playground  https://play.rust-lang.org | Forum  https://users.rust-lang.org | Conduct  https://www.rust-lang.org/conduct.html
+T 1541423438 22*	Topic for 22#rust-beginners set by 26niconii!nicole@moz-fg53dj.midco.net (24Thu May 26 06:19:40 2016)
+T 1541423449 24*	ChriFo has quit (Ping timeout: 121 seconds)
+T 1541423464 23*	Dariost (Dariost@moz-rn1l5b.13-31.reteivo.com23) has joined
+T 1541423490 23*	wildermind (uid300433@moz-3a3mnj.stonehaven.irccloud.com23) has joined
+T 1541423607 23*	ChriFo (christian.f@moz-kce1c9.dip0.t-ipconnect.de23) has joined
+T 1541423609 24*	GreenJello has quit (Ping timeout: 121 seconds)
+T 1541423640 24*	KiChjang has quit (Ping timeout: 121 seconds)
+T 1541423655 18<27kendle18>	also
+T 1541423656 18<27kendle18>	https://play.rust-lang.org/?version=stable&mode=debug&edition=2015&gist=f13324b4e575c5553d3e1e74d98d6c5a
+T 1541423672 18<27kendle18>	why does &self on line 7 not work?
+T 1541423691 18<27kendle18>	"cannot move out of borrowed content"
+T 1541423700 18<27kendle18>	but it works when it is just "self"
+T 1541423734 23*	random_yanek (random_yane@moz-v8q.tim.116.87.IP23) has joined
+T 1541423748 18<27kendle18>	oh I guess it should be &self.x?
+T 1541423768 23*	GreenJello (GreenJello@moz-isdjd7.bvgp.9nhv.8800.2600.IP23) has joined
+T 1541424019 18<27kimundi18>	kendle: assigning a value of some type to another variable or location will always move or copy the type
+T 1541424040 18<27kimundi18>	If the variable just has a generic type like T or U, then it can only moveit
+T 1541424050 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541424051 18<27kimundi18>	And you are not allowed to move through and reference
+T 1541424064 18<27kimundi18>	so you can not move through a &self method receiver
+T 1541424193 23*	patrl (patrl@moz-2kp3kj.f90c.bh8c.8109.2a02.IP23) has joined
+T 1541424230 24*	28U007D_afk is now known as 18U007D_
+T 1541424374 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541424476 24*	himi has quit (Ping timeout: 121 seconds)
+T 1541424599 24*	raingloom has quit (Ping timeout: 121 seconds)
+T 1541424963 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541425063 23*	jedahan (textual@moz-dmvk6g.fios.verizon.net23) has joined
+T 1541425067 24*	jedahan has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1541425124 18<24waynr18>	can anyone tell me why "    let n: u32 = (0..=n).sum(); n^2
+T 1541425131 24*	mattrudder has quit (Ping timeout: 121 seconds)
+T 1541425143 18<24waynr18>	works by '    (0..=n).sum() ^ 2
+T 1541425146 18<24waynr18>	doesn't?
+T 1541425167 18<27kimundi18>	The latter does not know that the result should be a u32
+T 1541425180 23*	dekokun (dekokun@moz-dmor8q.catv02.itscom.jp23) has joined
+T 1541425206 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541425213 23*	poljar (poljar@moz-a18eiq.net.t-com.hr23) has joined
+T 1541425214 18<24waynr18>	well both are used as a single line in a function whose return type is u32
+T 1541425225 24*	spear2 has quit (Connection closed)
+T 1541425231 23*	spear2 (spear2@moz-jsi95h.or.charter.com23) has joined
+T 1541425240 23*	mattrudder (mattrudder@moz-p7kmij.dyn.grandenetworks.net23) has joined
+T 1541425242 18<24waynr18>	is there a way to provide a type hint in the latter?
+T 1541425243 18<25fwiw18>	eval: (0..=10).sum::<u32>() ^ 2
+T 1541425246 -18eval/22#rust-beginners-	53
+T 1541425265 18<24waynr18>	oh cool
+T 1541425272 18<25fwiw18>	it's turbo.fish
+T 1541425287 18<25fwiw18>	https://turbo.fish/
+T 1541425380 24*	poljar1 has quit (Ping timeout: 121 seconds)
+T 1541425386 18<29ilmari18>	https://turbo.fish/::%3Cchar%3E is my favourite, since char is both a rust type and a type of fish
+T 1541425422 24*	dekokun has quit (Ping timeout: 121 seconds)
+T 1541425451 23*	refold (refold@moz-0jm.sl9.98.88.IP23) has joined
+T 1541425501 23*	himi (sjjf@moz-r3ta53.internode.on.net23) has joined
+T 1541425526 24*	Dariost has quit (Client exited)
+T 1541425597 24*	npmccallum has quit (Ping timeout: 121 seconds)
+T 1541425618 23*	Dariost (Dariost@moz-rn1l5b.13-31.reteivo.com23) has joined
+T 1541425619 24*	dpc1 has quit (Ping timeout: 121 seconds)
+T 1541425627 24*	joool has quit (Ping timeout: 121 seconds)
+T 1541425669 23*	earbanana (earbanana@moz-invhk2.bb.dnainternet.fi23) has joined
+T 1541425704 24*	Cetra has quit (Ping timeout: 121 seconds)
+T 1541425779 23*	mib_pvkuez (Mibbit@moz-vka.ets.157.175.IP23) has joined
+T 1541425804 24*	mib_pvkuez has quit (Quit: http://www.mibbit.com ajax IRC Client)
+T 1541425815 24*	GreenJello has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1541425822 23*	Cetra (Cetra@moz-3qreko.parashift.com.au23) has joined
+T 1541425877 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541425895 23*	joool (joool@moz-dbl.ij6.147.134.IP23) has joined
+T 1541426015 24*	sam113101 has quit (Ping timeout: 121 seconds)
+T 1541426018 18<24earbanana18>	hello, what might be the layout of this:   #[repr(C)] enum E { cc(i32, u64) }
+T 1541426101 24*	Dariost has quit (Client exited)
+T 1541426142 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541426193 23*	Dariost (Dariost@moz-rn1l5b.13-31.reteivo.com23) has joined
+T 1541426198 18<24earbanana18>	(or representation rather than layout)
+T 1541426258 24*	ter0 has quit (Ping timeout: 121 seconds)
+T 1541426304 24*	cpl has quit (Ping timeout: 121 seconds)
+T 1541426328 23*	cpl (cpl@moz-vcfefs.dyn.forthnet.gr23) has joined
+T 1541426509 24*	refold has quit (Ping timeout: 121 seconds)
+T 1541426532 23*	raingloom (raingloom@moz-tmqi5a.wifi.elte.hu23) has joined
+T 1541426610 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541426615 23*	KiChjang (keithyeung@moz-6r3.iiq.141.207.IP23) has joined
+T 1541426649 23*	balrogboogie (balrogboogi@moz-l6rsqp.i7uc.admg.1702.2600.IP23) has joined
+T 1541426750 24*	Itkovian has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1541426808 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541426858 23*	Itkovian (Itkovian@moz-kb6nkf.ugent.be23) has joined
+T 1541426883 23*	eibwen (eibwen@moz-uoj.njb.45.141.IP23) has joined
+T 1541426887 24*	KiChjang has quit (Ping timeout: 121 seconds)
+T 1541426890 20<scalarwaves>30	https://hastebin.com/olifohorad.rb   now why do I get stdlib.h errors when trying to use bindgen on a C++ header?
+T 1541427149 23*	herder (herder@moz-en65c0.bc.googleusercontent.com23) has joined
+T 1541427283 24*	eibwen has quit (Ping timeout: 121 seconds)
+T 1541427299 23*	user404d (quincycondu@moz-niui7i.carfax.com23) has joined
+T 1541427309 24*	herder has quit (Quit: WeeChat 1.9.1)
+T 1541427318 23*	herder (herder@moz-en65c0.bc.googleusercontent.com23) has joined
+T 1541427360 24*	ChriFo has quit (Ping timeout: 121 seconds)
+T 1541427379 23*	eibwen (eibwen@moz-uoj.njb.45.141.IP23) has joined
+T 1541427394 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541427423 23*	ChriFo (christian.f@moz-kce1c9.dip0.t-ipconnect.de23) has joined
+T 1541427457 23*	dpc1 (dpc@moz-4e5.gmv.112.45.IP23) has joined
+T 1541427459 24*	Itkovian has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1541427473 23*	gila (gila@moz-67skkq.dynamic.ziggo.nl23) has joined
+T 1541427475 24*	Dariost has quit (Client exited)
+T 1541427514 23*	Itkovian (Itkovian@moz-kb6nkf.ugent.be23) has joined
+T 1541427594 23*	Dariost (Dariost@moz-rn1l5b.13-31.reteivo.com23) has joined
+T 1541427630 23*	dorfsmay (dorfsmay@moz-m6vu7b.abhsia.telus.net23) has joined
+T 1541427677 23*	kyrylo (kyrylo@moz-dmo.0mg.105.130.IP23) has joined
+T 1541427699 23*	jsatk (jesseatkins@moz-48ft7k.ca.comcast.net23) has joined
+T 1541427763 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541428068 23*	mib_3o4fgg (Mibbit@moz-hfq.a4t.88.113.IP23) has joined
+T 1541428106 23*	stephaneyfx (stephaneyfx@moz-apm.mv8.157.192.IP23) has joined
+T 1541428201 24*	mib_3o4fgg has quit (Quit: http://www.mibbit.com ajax IRC Client)
+T 1541428290 18<24U007D_18>	should `cargo test` work on a [no_std]` crate?  I'm getting `cargo build` working happily but `cargo test` reporting "can't find crate for 'test'"
+T 1541428307 24*	percevalbot has quit (Ping timeout: 121 seconds)
+T 1541428317 23*	Research (Kuroi@moz-p1i4ei.dip0.t-ipconnect.de23) has joined
+T 1541428336 18<24Research18>	Is there are rust crate for rendering musical notation?
+T 1541428439 24*	eibwen has quit (Ping timeout: 121 seconds)
+T 1541428518 23*	eibwen (eibwen@moz-uoj.njb.45.141.IP23) has joined
+T 1541428590 23*	nineczar (nate@moz-4r8jk7.ma.comcast.net23) has joined
+T 1541428615 18<22stephaneyfx18>	U007D_: That seems to work: https://play.rust-lang.org/?version=stable&mode=debug&edition=2015&gist=cf1b7a475a51d3fb8f82b9c50b3b8b73
+T 1541428635 24*	ChriFo has quit (Ping timeout: 121 seconds)
+T 1541428675 23*	percevalbot (supybot@moz-p0s5me.bitergia.net23) has joined
+T 1541428686 23*	ChriFo (christian.f@moz-kce1c9.dip0.t-ipconnect.de23) has joined
+T 1541428713 18<24U007D_18>	stephaneyfx: indeed it does...  I don't recall having issues with other no_std projects...  odd
+T 1541428722 24*	28U007D_ is now known as 18U007D
+T 1541428768 18<28U007D18>	I'm in a workspace, but will try building a dummy project from scratch
+T 1541428769 18<22stephaneyfx18>	U007D: The crate you're trying to test is a lib crate, right?
+T 1541428789 24*	joool has quit (Ping timeout: 121 seconds)
+T 1541428797 18<28U007D18>	stephaneyfx: oooh, I think you nailed it; I usually make lib crates and write a small main driver.  This one is a bin crate
+T 1541428816 18<22stephaneyfx18>	I think that's why
+T 1541428819 23*	joool (joool@moz-49ljf6.ipv6.ruhr-uni-bochum.de23) has joined
+T 1541428827 18<28U007D18>	you're good!  :D
+T 1541428839 23*	callym_ (quassel@moz-2c1o48.virginmediabusiness.co.uk23) has joined
+T 1541428847 24*	callym has quit (Connection closed)
+T 1541428854 18<28U007D18>	i'll try flipping it to a lib crate
+T 1541428886 18<27kendle18>	can two Strings be concatenated using '+'? I tried but it produced the message "expected &str, found struct `std::string::String"
+T 1541428907 18<22stephaneyfx18>	kendle: a + &b
+T 1541428919 18<27kendle18>	oh, so it has to be a string slice?
+T 1541428926 18<22stephaneyfx18>	kendle: You can append &str to String
+T 1541428932 20<scalarwaves>30	I'm trying to use bindgen on some C++ headers and it's throwing "stdlib.h not found" errors, why?
+T 1541428939 18<27kendle18>	thanks!
+T 1541429007 23*	npmccallum (npmccallum@moz-0dj.eio.187.66.IP23) has joined
+T 1541429172 24*	ChriFo has quit (Ping timeout: 121 seconds)
+T 1541429182 24*	spear2 has quit (Ping timeout: 121 seconds)
+T 1541429204 23*	spear2 (spear2@moz-jsi95h.or.charter.com23) has joined
+T 1541429257 24*	npmccallum has quit (Ping timeout: 121 seconds)
+T 1541429287 23*	ChriFo (christian.f@moz-kce1c9.dip0.t-ipconnect.de23) has joined
+T 1541429306 20<scalarwaves>30	I read on stackoverflow that C headers should include <stdlib.h> and C++ headers should include <cstdlib>, I don't even know if that's true
+T 1541429352 24*	soren has quit (Ping timeout: 121 seconds)
+T 1541429383 24*	jones has quit (Quit: WeeChat 2.3)
+T 1541429463 24*	eibwen has quit (Ping timeout: 121 seconds)
+T 1541429483 18<25fwiw18>	stdlib.h is cstdlib in c++
+T 1541429568 20<scalarwaves>30	that's what I thought, why is bindgen choking on <stdlib.h>, or rather why is stdlib.h being included in C++ headers?
+T 1541429584 23*	llvkm (Mibbit@moz-qmh.at1.188.213.IP23) has joined
+T 1541429600 24*	jsatk has quit (Ping timeout: 121 seconds)
+T 1541429652 23*	dowwie (dowwie@moz-l38.p7c.115.199.IP23) has joined
+T 1541429675 24*	w3mpp_ has quit (Ping timeout: 121 seconds)
+T 1541429684 23*	soren (soren@moz-psuvnj.bath.ac.uk23) has joined
+T 1541429773 24*	ChriFo has quit (Ping timeout: 121 seconds)
+T 1541429778 24*	raingloom has quit (Quit: WeeChat 2.3)
+T 1541429862 23*	KiChjang (keithyeung@moz-6r3.iiq.141.207.IP23) has joined
+T 1541429888 23*	ChriFo (christian.f@moz-kce1c9.dip0.t-ipconnect.de23) has joined
+T 1541429900 23*	YuGiOhJCJ (YuGiOhJCJ@moz-7598gj.fbx.proxad.net23) has joined
+T 1541429941 24*	soren has quit (Ping timeout: 121 seconds)
+T 1541430040 Perl	hexchat_print called without a valid context.

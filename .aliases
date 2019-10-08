@@ -1,0 +1,122 @@
+# chuck,faust
+alias chuck=achuck
+alias f2c=faust2ck
+alias f2r=faust2portaudiorust
+alias f2jr=faust2jackrust
+
+
+# admin
+alias zconf="micro ~/.zshrc"
+alias beepoff="xset b off"
+alias compizon="gsettings set org.mate.session.required-components windowmanager compiz"
+alias compizoff="gsettings reset org.mate.session.required-components windowmanager"
+alias del='mv --verbose --backup=simple --su
+alias hs='http-server'
+date +".(%F_%T)") --target-directory=$HOME/.Trash/'
+alias kg="ssh-keygen -t rsa -b 4096 -C" # command + email
+alias sshp='ssh -o PubkeyAuthentication=no '
+alias dir=exa
+#alias haste=upaste
+alias kat=bat
+alias code=vscodium
+alias celar=clear
+alias clera=clear
+alias lcear=clear
+alias clea=clear
+alias j=just
+alias logrep="/bin/cat /var/log/**/*.log |rg "
+alias ls=exa
+alias sl=ls
+alias figlet=toilet
+alias diff=diff --color
+alias less=less
+alias more=rager
+alias cg=cargo
+alias ninja=samu
+
+# ansible
+alias ag=ansible-galaxy
+alias ap=ansible-playbook
+
+# arch
+alias pi="sudo pacman -S --noconfirm"
+alias pse="sudo pacman -Ss"
+alias yi="yay -S --noconfirm"
+alias yse="yay -Ss"
+alias ycc="yay -Scc -v"
+alias pu="sudo pacman -U --noconfirm --needed -v"
+alias yu="yay -U --noconfirm --needed -v"
+alias yug="yay -Syyua --devel --noconfirm --needed --color auto"
+
+#rust
+alias car=cargo
+alias cm="cargo make"
+alias oldls=/bin/ls
+alias oldcat=/bin/cat
+
+# debian
+alias aar="sudo add-apt-repository"
+alias ai="sudo apt install"
+alias arm="sudo apt autoremove"
+alias areconf="sudo dpkg-reconfigure --all"
+alias afix="sudo apt install -f"
+alias ase="apt search"
+alias au="sudo apt update"
+alias dfix="sudo dpkg --configure -a"
+alias du="sudo apt dist-upgrade -y"
+alias fixkey="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys" # command + key
+alias gk="sudo gpg --recv-keys "
+alias md=mkdir
+
+# misc
+alias icons=get_icon_names
+alias pcolor='for code ({000..255}) print -P -- "$code: %F{$code}This is how your text would look like%f"'
+alias plsh="/bin/ls -poAgZsh --color=always"
+alias slice="sed -i" # slice + s/match/replacement/
+alias td=todo.sh
+
+# git
+alias github=gh
+alias gbsutomm="git branch --set-upstream-to=origin/master master"
+alias gcl="git clone"
+alias glog="git log --oneline --abbrev-commit --all --graph --decorate --color"
+alias gpsuom="git push --set-upstream origin master"
+alias grao="git remote add origin"
+alias gst="git status -s"
+
+# node
+alias alex=node_modules/.bin/alex
+alias eslint=node_modules/.bin/eslint
+alias franc=node_modules/.bin/franc
+alias mocha=node_modules/.bin/_mocha
+alias nesh="nesh -b"
+alias nyc=node_modules/.bin/nyc
+alias nv="nvm use"
+alias rehype=node_modules/.bin/rehype
+alias remark=node_modules/.bin/remark
+alias rr=redrun
+alias pm=pnpm
+
+# leximaven
+alias lexi=leximaven
+alias blexi="node bin/leximaven.js"
+alias slexi="node src/leximaven.js"
+
+# iloa
+alias biloa="node bin/iloa.js"
+alias siloa="node src/iloa.js"
+
+# toloko
+alias tol=toloko
+alias btol="node bin/toloko.js"
+alias stol="node src/toloko.js"
+
+# ruby
+alias gset="rvm gemset"
+alias rstart="rsense start --port 47367"
+alias rstop="rsense stop"
+alias rvmrc="rvm --create --ruby-version use"
+alias rv="rvm use"
+
+# tmux
+alias tpm=ellipsis-tpm

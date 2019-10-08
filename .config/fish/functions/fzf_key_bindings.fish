@@ -1,0 +1,1 @@
+/home/dark/.fzf/shell/key-bindings.fish

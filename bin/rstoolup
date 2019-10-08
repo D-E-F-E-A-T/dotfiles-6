@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#updates rust cli tools
+cargo install -f amber bat bindgen bingrep cargo-edit cargo-miri catmark cbindgen chit cmark commentective comrak crates crowbook dutree exa fd-find ff-find hexyl i3nator i3wsr iching image_colors irust just kailua lalrpop llvmenv marker mdbook mdcat parallel pijul podcast procs ptags pax racer rash rff ripgrep rua rusty-tags sccache sd strange svgcleaner tealdeer tokei tomlcli tree-rs watchexec xcompress

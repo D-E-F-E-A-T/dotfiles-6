@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo 'copying id_rsa.pub to clipboard...'
+/bin/cat ~/.ssh/id_rsa.pub | xclip -verbose -sel clipboard
+echo 'done.'

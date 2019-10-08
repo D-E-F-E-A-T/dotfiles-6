@@ -1,0 +1,4 @@
+T 1541303292 19*	Now talking on 22#dynasm-rs
+T 1541303292 22*	Topic for 22#dynasm-rs is: Development channel for dynasm-rs, a tool for run-time generated code for rust | https://github.com/CensoredUsername/dynasm-rs
+T 1541303292 22*	Topic for 22#dynasm-rs set by 26astocko (24Fri Nov  4 15:33:30 2016)
+T 1541305158 Perl	hexchat_print called without a valid context.

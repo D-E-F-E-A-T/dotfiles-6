@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+bindgen -V
+cargo -V
+racer -V
+rls -V
+rustc -V
+rustdoc -V
+rustfmt -V
+rustup -V

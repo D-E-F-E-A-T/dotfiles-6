@@ -1,0 +1,5 @@
+cmake 3.15.2
+graalvm 1.0.0-rc16
+ruby truffleruby-1.0.0-rc16
+rust nightly
+tmux 3.0

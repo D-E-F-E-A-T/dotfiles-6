@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+echo "asdf $(asdf --version)"
+echo "clojure $(asdf list clojure)"
+cmake --version|head -n 1
+#consul --version|head -n 1
+coqc -v|head -n 1
+crystal -v|head -n 1
+desk --version
+dmd --version|head -n 1
+docker-slim --version
+elixir -v|tail -n 1
+echo "elm v$(elm --version)"
+elixir -v|head -n 1
+go version
+ghc --version
+hugo version
+echo "idris $(idris -v)"
+convert -version|head -n 1
+javac -version
+julia -v
+kotlin -version
+protoc --version
+lua -v
+luajit -v
+echo "mill $(asdf list mill)"
+mongo --version|head -n 1
+echo "node.js $(node -v)"
+nomad version
+ocaml --version
+echo "packer $(packer --version)"
+perl -v|head -n 2|tail -n 1
+php -v|head -n 1
+pyenv versions
+python -V
+python2 -V
+R --version|head -n 1
+racket -v
+rebar3 version
+redis-server --version
+ruby -v
+serf version|head -n 1
+echo "spark $(asdf list spark)"
+echo "sqlite3 $(sqlite3 -version)"
+swipl --version
+terraform version|head -n 1
+vault version

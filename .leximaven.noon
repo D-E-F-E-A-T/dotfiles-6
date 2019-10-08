@@ -1,0 +1,80 @@
+anagram
+            case        1
+            lang        english
+            limit       10
+            linenum     false
+            list        false
+            maxletter   50
+            maxword     10
+            minletter   1
+            repeat      false
+dmuse
+            date
+                interval    day
+                limit       100000
+                remain      99999
+                stamp       2019-08-07T12:56:55.579Z
+            max     5
+merge       true
+onelook
+            date
+                interval    day
+                limit       10000
+                remain      9999
+                stamp       2019-08-07T12:57:13.965Z
+            links   false
+rbrain
+            combine
+                lang    en
+                max     5
+            date
+                interval    hour
+                limit       350
+                remain      347
+                stamp       2019-08-07T12:56:59.312Z
+            info
+                lang  en
+            rhyme
+                lang    en
+                max     50
+theme       square
+urban
+            limit  5
+usage       false
+verbose     false
+wordmap
+            limit  1
+wordnik
+            date
+                interval    hour
+                limit       15000
+                remain      14989
+                stamp       2019-08-07T12:56:49.977Z
+            define
+                canon       false
+                defdict     all
+                limit       5
+                part        ||
+            example
+                canon   false
+                limit   5
+                skip    0
+            hyphen
+                canon   false
+                dict    all
+                limit   5
+            origin
+                canon  false
+            phrase
+                canon   false
+                limit   5
+                weight  13
+            pronounce
+                canon   false
+                dict    ||
+                limit   5
+                type    ||
+            relate
+                canon   false
+                limit   10
+                type    ||
