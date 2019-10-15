@@ -1,5 +1,7 @@
 # bin
 
+I've removed binary files from this folder to decrease repo size, but they actually exist in my private repo and locally.
+
 - achuck - **binary** - ChucK for ALSA
 - alacritty - **binary** - fastest terminal emulator in existence - GPU accelerated
 - bonsai - **binary** - draws bonsai trees in the terminal
